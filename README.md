@@ -32,8 +32,8 @@ HOW TO INSTALL:
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
 12. start LM studio server (or similar)
-13. run talk3.py (low latency version)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
+13. run talk3.py (low latency version)
 14. run xtalk.py (quality voice version)
 
