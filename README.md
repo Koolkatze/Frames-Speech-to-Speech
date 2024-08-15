@@ -18,16 +18,19 @@ REQUIREMENTS:
 HOW TO INSTALL:
 
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
-2. cd dir Frames-Speech-to-Speech
-3. pip3 install whisper-timestamped
-4. git clone https://github.com/myshell-ai/OpenVoice.git
-5. pip install -r requirements.txt
-6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-7. extract checkpoints.zip to Frames-Speech-to-Speech folder
-8. on https://huggingface.co/coqui/XTTS-v2 download model
-9. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-10. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
-11. In xtalk.py (xtts version):
+2. git clone https://github.com/mphilli/English-to-IPA.git
+- cd English-to-IPA
+- python -m pip install .
+4. cd dir Frames-Speech-to-Speech
+5. pip3 install whisper-timestamped
+6. git clone https://github.com/myshell-ai/OpenVoice.git
+7. pip install -r requirements.txt
+8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+9. extract checkpoints.zip to Frames-Speech-to-Speech folder
+10. on https://huggingface.co/coqui/XTTS-v2 download model
+11. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+12. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
+13. In xtalk.py (xtts version):
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
