@@ -19,7 +19,7 @@ HOW TO INSTALL:
 
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
 2. cd dir Frames-Speech-to-Speech
-3. git clone https://github.com/linto-ai/whisper-timestamped.git
+3. pip3 install whisper-timestamped
 4. git clone https://github.com/myshell-ai/OpenVoice.git
 5. pip install -r requirements.txt
 6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
