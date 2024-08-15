@@ -21,6 +21,7 @@ HOW TO INSTALL:
 2. git clone https://github.com/mphilli/English-to-IPA.git
 - cd English-to-IPA
 - python -m pip install .
+- pip install cn2an -U
 4. cd dir Frames-Speech-to-Speech
 5. pip3 install whisper-timestamped
 6. git clone https://github.com/myshell-ai/OpenVoice.git
