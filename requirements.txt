@@ -1,0 +1,12 @@
+torch
+pyaudio
+torchaudio
+numpy
+SpeechRecognition
+faster-whisper
+sentence-transformers
+soundfile
+langid
+pydub
+openai
+TTS
