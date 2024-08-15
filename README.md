@@ -12,7 +12,7 @@ REQUIREMENTS:
 - You might need Pytorch (https://pytorch.org/) Use your own parameters to download your setup file.
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
-  go to Frames-Speech-to-Speech/cudnn-windows-x86_64-8.9.7.29_cuda12-archive/bin/ take all the files inside (.dll) and move them to
+  go to https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=12 take all the /bin files inside (.dll) and move them to
   your PC's C:\Users\"INSERT YOUR USER HERE"\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\lib
 
 HOW TO INSTALL:
