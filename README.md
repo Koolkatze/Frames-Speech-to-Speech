@@ -20,18 +20,18 @@ HOW TO INSTALL:
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
 2. cd dir Frames-Speech-to-Speech
 3. git clone https://github.com/linto-ai/whisper-timestamped.git
-4. pip install -r requirements.txt
-5. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-6. extract checkpoints.zip to Frames-Speech-to-Speech folder
-7. on https://huggingface.co/coqui/XTTS-v2 download model
-8. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-9. git clone https://github.com/myshell-ai/OpenVoice.git
+4. git clone https://github.com/myshell-ai/OpenVoice.git
+5. pip install -r requirements.txt
+6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+7. extract checkpoints.zip to Frames-Speech-to-Speech folder
+8. on https://huggingface.co/coqui/XTTS-v2 download model
+9. place XTTS-v2 folder in Frames-Speech-to-Speech folder
 10. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
 11. In xtalk.py (xtts version):
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-10. start LM studio server (or similar)
-11. run talk3.py (low latency version)
-12. run xtalk.py (quality voice version)
+12. start LM studio server (or similar)
+13. run talk3.py (low latency version)
+14. run xtalk.py (quality voice version)
 
