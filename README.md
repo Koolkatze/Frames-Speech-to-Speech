@@ -38,6 +38,6 @@ HOW TO INSTALL:
 12. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-13. run talk3.py (low latency version)
-14. run xtalk.py (quality voice version)
+13. run: python talk3.py (low latency version)
+14. run: python xtalk.py (quality voice version)
 
