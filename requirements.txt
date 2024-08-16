@@ -9,4 +9,4 @@ soundfile
 langid
 pydub
 openai
-TTS
+tts==0.19.0
