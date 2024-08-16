@@ -28,10 +28,7 @@ HOW TO INSTALL:
 7. INSTALL REQUIREMENTS:
   - pip install -r requirements.txt
   - cd OpenVoice
-  - pip install -r requirements.txt
   - pip install -e .
-  - pip install git+https://github.com/myshell-ai/MeloTTS.git
-  - python -m unidic download
 8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 9. extract checkpoints.zip to Frames-Speech-to-Speech folder
 10. on https://huggingface.co/coqui/XTTS-v2 download model
