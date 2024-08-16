@@ -25,7 +25,11 @@ HOW TO INSTALL:
 4. cd dir Frames-Speech-to-Speech
 5. pip3 install whisper-timestamped
 6. git clone https://github.com/myshell-ai/OpenVoice.git
-7. pip install -r requirements.txt
+7. INSTALL REQUIREMENTS:
+  - pip install -r requirements.txt
+  - cd OpenVoice
+  - pip install -r requirements.txt
+  - python -m pip install .
 8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 9. extract checkpoints.zip to Frames-Speech-to-Speech folder
 10. on https://huggingface.co/coqui/XTTS-v2 download model
