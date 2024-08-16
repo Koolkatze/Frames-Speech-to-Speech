@@ -29,8 +29,8 @@ HOW TO INSTALL:
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
 10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-11. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
-12. In xtalk.py (xtts version):
+11. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+12. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
