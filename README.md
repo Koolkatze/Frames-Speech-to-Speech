@@ -41,3 +41,11 @@ HOW TO INSTALL:
 13. run: python talk3.py (low latency version)
 14. run: python xtalk.py (quality voice version)
 
+ROADMAP:
+
+1. Run a docker in the program to try and use LMStudio instead of OLlama (possible alternative).
+2. Change LMStudio for OLlama to use its Web UI.
+3. Read OLlamas output or Chatbot's answer inside OLlama and stream the text string to Frames by Brilliant Labs by using Brilliant Labs NOA Assistant and OLlama Web UI sharing the string info.
+4. Using all the sensors inside Frames by Brilliant Labs (Camera, Movement/Gravity, Tap Buttons) to control and share info with OLlama and enhance the chatting experience.
+5. Implementing video stream through the glasses camera to the preferred LLM inside OLlama or LMStudio (with Docker) to make a ChatGPT type of chatting with any opensource model.
+
