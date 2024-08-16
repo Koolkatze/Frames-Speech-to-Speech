@@ -24,25 +24,21 @@ HOW TO INSTALL:
 - pip install cn2an -U
 4. cd dir Frames-Speech-to-Speech
 5. pip3 install whisper-timestamped
-6. git clone https://github.com/myshell-ai/OpenVoice.git
-7. INSTALL REQUIREMENTS:
-  - pip install -r requirements.txt
-  - cd OpenVoice
-  - pip install -e .
-8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-9. extract checkpoints.zip to Frames-Speech-to-Speech folder
-10. on https://huggingface.co/coqui/XTTS-v2 download model
-11. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-12. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
-13. In xtalk.py (xtts version):
+6. pip install -r requirements.txt
+7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+8. extract checkpoints.zip to Frames-Speech-to-Speech folder
+9. on https://huggingface.co/coqui/XTTS-v2 download model
+10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+11. In talk3.py (openvoice version) set your reference voice PATH (use a .mp3 extension file) on line 247
+12. In xtalk.py (xtts version):
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-12. start LM studio server (or similar)
+13. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-13. run: python talk3.py (low latency version)
-14. run: python xtalk.py (quality voice version)
+14. run: python talk3.py (low latency version)
+15. run: python xtalk.py (quality voice version)
 
 ROADMAP:
 
