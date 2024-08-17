@@ -18,14 +18,16 @@ REQUIREMENTS:
 HOW TO INSTALL:
 
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
-2. git clone https://github.com/mphilli/English-to-IPA.git
+2. git clone https://github.com/myshell-ai/OpenVoice.git
+3. cd OpenVoice
+   - pip install -r requirements.txt
+   - pip install -e .
+   - pip install librosa==0.10.0
+4. git clone https://github.com/mphilli/English-to-IPA.git
 - cd English-to-IPA
 - python -m pip install .
 - pip install cn2an -U
-4. cd dir Frames-Speech-to-Speech
-- git clone https://github.com/myshell-ai/OpenVoice.git
-- python -m pip install .
-5. pip3 install whisper-timestamped
+5. cd dir Frames-Speech-to-Speech
 6. pip install -r requirements.txt
 - pip install --upgrade --force-reinstall ctranslate2==3.17.0
 - pip install --upgrade --force-reinstall numpy==1.22.0
