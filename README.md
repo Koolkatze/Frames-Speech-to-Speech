@@ -23,10 +23,11 @@ HOW TO INSTALL:
 - python -m pip install .
 - pip install cn2an -U
 4. cd dir Frames-Speech-to-Speech
-  - git clone https://github.com/myshell-ai/OpenVoice.git
-  - python -m pip install .
+- git clone https://github.com/myshell-ai/OpenVoice.git
+- python -m pip install .
 5. pip3 install whisper-timestamped
 6. pip install -r requirements.txt
+- pip install --upgrade --force-reinstall ctranslate2==3.17.0
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
