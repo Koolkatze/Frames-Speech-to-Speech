@@ -29,16 +29,17 @@ HOW TO INSTALL:
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
 10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-11. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
-12. In xtalk.py:
+11. pip install --upgrade --force-reinstall ctranslate2==3.24.0
+12. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+13. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-13. start LM studio server (or similar)
+14. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-14. run: python talk3.py (low latency version)
-15. run: python xtalk.py (quality voice version)
+15. run: python talk3.py (low latency version)
+16. run: python xtalk.py (quality voice version)
 
 ROADMAP:
 
