@@ -9,7 +9,7 @@ REQUIREMENTS:
 - NVIDIA GPU (will prob work with only CPU too)
 - microphone
 - local LLM setup (default is LM studio but working on OLlama to use WEB UI)
-- You might need Pytorch (https://pytorch.org/) Use your own parameters to download your setup file.
+- You might need Pytorch (https://pytorch.org/) Use this command: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
   go to https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=12 take all the /bin files inside (.dll) and move them to
