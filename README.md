@@ -4,15 +4,15 @@ REQUIREMENTS:
 - Windows 10/11 
 - Python 3.10 https://www.python.org/downloads/release/python-3100/
 - CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64
-- CUDNN Library https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=11 
-- ffmpeg installed (https://phoenixnap.com/kb/ffmpeg-windows)
+- CUDNN Library https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=12
+- ffmpeg installed https://phoenixnap.com/kb/ffmpeg-windows
 - NVIDIA GPU (will prob work with only CPU too)
 - microphone
 - local LLM setup (default is LM studio but working on OLlama to use WEB UI)
 - You might need Pytorch (https://pytorch.org/) Use your own parameters to download your setup file.
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
-  go to https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=11 take all the /bin files inside (.dll) and move them to
+  go to https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=12 take all the /bin files inside (.dll) and move them to
   your PC's C:\Users\ "INSERT YOUR USER HERE"\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\lib
 
 HOW TO INSTALL:
