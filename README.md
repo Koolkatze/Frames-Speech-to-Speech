@@ -12,7 +12,7 @@ REQUIREMENTS:
 - You might need Pytorch (https://pytorch.org/) Use this command: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
-  go to https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=Agnostic&cuda_version=12 take all the /bin files inside (.dll) and move them to
+  go to https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.7/local_installers/12.x/cudnn-windows-x86_64-8.9.7.29_cuda12-archive.zip/ take all the /bin files inside (.dll) and move them to
   your PC's C:\Users\ "INSERT YOUR USER HERE"\AppData\Local\Programs\Python\Python310\Lib\site-packages\torch\lib
 
 HOW TO INSTALL:
