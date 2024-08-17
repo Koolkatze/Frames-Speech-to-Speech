@@ -28,6 +28,7 @@ HOW TO INSTALL:
 5. pip3 install whisper-timestamped
 6. pip install -r requirements.txt
 - pip install --upgrade --force-reinstall ctranslate2==3.17.0
+- pip install --upgrade --force-reinstall numpy==1.22.0
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
