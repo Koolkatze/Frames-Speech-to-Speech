@@ -20,9 +20,7 @@ HOW TO INSTALL:
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
 2. git clone https://github.com/myshell-ai/OpenVoice.git
 3. cd OpenVoice
-   - pip install -r requirements.txt
    - pip install -e .
-   - pip install librosa==0.10.0
 4. git clone https://github.com/mphilli/English-to-IPA.git
 - cd English-to-IPA
 - python -m pip install .
