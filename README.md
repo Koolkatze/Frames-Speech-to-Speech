@@ -3,18 +3,18 @@ REQUIREMENTS:
 
 - Windows 10/11 
 - Python 3.10 https://www.python.org/downloads/release/python-3100/
-- CUDA Toolkit 12.1 https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64
+- CUDA Toolkit 11.8 https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64 Select windows version and .exe(local).
 - CUDNN Library https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.7/local_installers/12.x/cudnn-windows-x86_64-8.9.7.29_cuda12-archive.zip/
 - ffmpeg installed https://phoenixnap.com/kb/ffmpeg-windows or pip install ffmpeg
 - NVIDIA GPU (will prob work with only CPU too)
 - microphone
 - local LLM setup (default is LM studio but working on OLlama to use WEB UI)
-- You might need Pytorch (https://pytorch.org/) Use this command: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+- You might need Pytorch (https://pytorch.org/) (Included in HOW TO INSTALL)
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126"
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
-  go to https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.7/local_installers/12.x/cudnn-windows-x86_64-8.9.7.29_cuda12-archive.zip/ take all the /bin files inside (.dll) and move them to
-  your PC's C:\Users\ "INSERT YOUR USER HERE"\AppData\Local\Programs\Python\Python310\Lib\site-packages\torch\lib
-- If an ERROR like this occurs: "Could not load library cublas64_12.dll." download this: https://www.dllme.com/dll/files/cublas64_12 and place the file here: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin and here: C:\Users\INSERT YOUR USER\AppData\Local\Programs\Python\Python310\Lib\site-packages\torch\lib
+  go to https://github.com.Puefview/ehisper-standalone-win/releases/tag/libs download "cuBLAS.and.cuDNN_CUDA11_win_v2.zip take all the files inside .zip (.dll) and move them to
+  your PC's C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin
+- If an ERROR like this occurs: "Could not load library cublas64_12.dll.": Go to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin, take cublas64_11.dll make a copy of it and rename it cublas64_12.dll
 
 HOW TO INSTALL:
 
@@ -28,8 +28,7 @@ HOW TO INSTALL:
 - pip install cn2an -U
 5. cd dir Frames-Speech-to-Speech
 6. pip install -r requirements.txt
-- pip install --upgrade --force-reinstall ctranslate2==3.17.0
-- pip install --upgrade --force-reinstall numpy==1.22.0
+- pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 toechaudio==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
