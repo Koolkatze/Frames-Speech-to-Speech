@@ -1,9 +1,16 @@
+torch
+pyaudio
+torchaudio
 numpy
 SpeechRecognition
-faster-whisper
+faster-whisper==0.9.0
 sentence-transformers
 soundfile
 langid
 TTS
 pydub
 openai
+inflect==7.0.0
+librosa==0.9.1
+pypinyin==0.50.0
+unidecode==1.3.7
