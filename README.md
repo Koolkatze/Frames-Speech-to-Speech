@@ -11,7 +11,7 @@ REQUIREMENTS:
 - You might need Pytorch (https://pytorch.org/) (Included in HOW TO INSTALL)
 - If an ERROR like this occurs: "Could not load library cudnn_ops_infer64_8.dll. Error code 126"
   Please make sure cudnn_ops_infer64_8.dll is in your library path!"
-  go to https://github.com.Purfview/whisper-standalone-win/releases/tag/libs download "cuBLAS.and.cuDNN_CUDA11_win_v2.zip take all the files inside .zip (.dll) and move them to
+  go to https://github.com.Purfview/whisper-standalone-win/releases download "cuBLAS.and.cuDNN_CUDA11_win_v2.zip take all the files inside .zip (.dll) and move them to
   your PC's C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin
 - If an ERROR like this occurs: "Could not load library cublas64_12.dll.": Go to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin, take cublas64_11.dll make a copy of it and rename it cublas64_12.dll
 
