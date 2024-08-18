@@ -248,7 +248,7 @@ def user_chatbot_conversation():
         chatbot_response = chatgpt_streamed(user_input, system_message, conversation_history, "Chatbot", vault_embeddings_tensor, vault_content, model)
         conversation_history.append({"role": "assistant", "content": chatbot_response})
         prompt2 = chatbot_response
-        audio_file_pth2 = "C:/codes/speech-to-rag/voiceClone/MiCielo.wav"
+        audio_file_pth2 = "C:/codes/Frames-Speech-to-Speech/voiceClone/anodos y catodos.wav"
         process_and_play(prompt2, audio_file_pth2)
         if len(conversation_history) > 20:
             conversation_history = conversation_history[-20:]
