@@ -4,7 +4,6 @@ REQUIREMENTS:
 - Windows 10/11 
 - Python 3.10 https://www.python.org/downloads/release/python-3100/
 - CUDA Toolkit 11.8 https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Windows&target_arch=x86_64 Select windows version and .exe(local).
-- CUDNN Library https://developer.nvidia.com/downloads/compute/cudnn/secure/8.9.7/local_installers/12.x/cudnn-windows-x86_64-8.9.7.29_cuda12-archive.zip/
 - ffmpeg installed https://phoenixnap.com/kb/ffmpeg-windows or pip install ffmpeg
 - NVIDIA GPU (will prob work with only CPU too)
 - microphone
