@@ -4,10 +4,12 @@ torchaudio
 numpy
 SpeechRecognition
 faster-whisper
-transformers==4.37.0
 sentence-transformers
 soundfile
 langid
 TTS==0.13.0
 pydub
 openai
+transformers==4.35.0 
+tokenizers==0.14 
+huggingface-hub==0.16.4
