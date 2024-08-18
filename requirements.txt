@@ -7,9 +7,6 @@ faster-whisper
 sentence-transformers
 soundfile
 langid
-TTS==0.13.0
+TTS
 pydub
 openai
-transformers==4.35.0 
-tokenizers==0.14 
-huggingface-hub==0.16.4
