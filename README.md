@@ -28,6 +28,7 @@ HOW TO INSTALL:
 5. cd dir Frames-Speech-to-Speech
 6. pip install -r requirements.txt
 - pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
+- pip install --default-timeout=1000 tts==0.13.0
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
