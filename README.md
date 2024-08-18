@@ -27,7 +27,7 @@ HOW TO INSTALL:
 - pip install cn2an -U
 5. cd dir Frames-Speech-to-Speech
 6. pip install -r requirements.txt
-- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+- conda install pytorch=2.1.2 torchvision=0.16.2 torchaudio=2.1.2 pytorch-cuda=11.8 -c pytorch-test -c nvidia
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
 9. on https://huggingface.co/coqui/XTTS-v2 download model
