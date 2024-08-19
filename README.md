@@ -40,6 +40,7 @@ HOW TO INSTALL:
 
 ROADMAP:
 
+0. pip install ffmpeg
 1. Run a docker in the program to try and use LMStudio instead of OLlama (possible alternative).
 2. Change LMStudio for OLlama to use its Web UI.
 3. Read OLlamas output or Chatbot's answer inside OLlama and stream the text string to Frames by Brilliant Labs by using Brilliant Labs NOA Assistant and OLlama Web UI sharing the string info.
