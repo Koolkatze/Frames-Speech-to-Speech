@@ -24,19 +24,20 @@ HOW TO INSTALL:
 4. pip install -r requirements.txt
 5. cd OpenVoice
    - pip install -e .
-6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-7. extract checkpoints.zip to Frames-Speech-to-Speech folder
-8. on https://huggingface.co/coqui/XTTS-v2 download model
-9. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-10. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
-11. In xtalk.py:
+6. cd Frames-Speech-to-Speech
+7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+8. extract checkpoints.zip to Frames-Speech-to-Speech folder
+9. on https://huggingface.co/coqui/XTTS-v2 download model
+10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+11. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+12. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-12. start LM studio server (or similar)
+13. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-13. run: python talk3.py (low latency version)
+14. run: python talk3.py (low latency version)
 14. run: python xtalk.py (quality voice version)
 
 ROADMAP:
