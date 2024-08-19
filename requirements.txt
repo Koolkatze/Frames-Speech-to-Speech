@@ -13,7 +13,7 @@ cn2an==0.5.22
 jieba==0.42.1 
 gradio==3.48.0 
 langid==1.1.6
-numpy
+numpy>=1.17.0
 SpeechRecognition
 sentence-transformers== 0.2.5.1
 soundfile
@@ -23,4 +23,4 @@ transformers==2.3.0
 TTS
 torch==2.1.2 
 torchvision==0.16.2 
-torchaudio==2.1.2
+torchaudio==2.1.2 
