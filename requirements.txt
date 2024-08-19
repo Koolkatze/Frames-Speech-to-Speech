@@ -15,12 +15,12 @@ gradio==3.48.0
 langid==1.1.6
 numpy
 SpeechRecognition
-sentence-transformers
+sentence-transformers== 0.2.5.1
 soundfile
 pydub
 openai
-Transformers
+transformers==2.3.0
 TTS
 torch==2.1.2 
 torchvision==0.16.2 
-torchaudio==2.1.2 
+torchaudio==2.1.2
