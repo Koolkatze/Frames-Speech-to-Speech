@@ -22,8 +22,12 @@ HOW TO INSTALL:
 2. git clone https://github.com/myshell-ai/OpenVoice.git
 3. cd dir Frames-Speech-to-Speech
 4. pip install -r requirements.txt
-5. cd OpenVoice
-   - pip install -e .
+5. pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
+6. cd OpenVoice
+- python -m venv /your/openvoice/path
+- \Openvoice\Scripts\Activate.ps1
+- pip install -r requirements.txt
+- pip install -e .
 6. cd Frames-Speech-to-Speech
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
