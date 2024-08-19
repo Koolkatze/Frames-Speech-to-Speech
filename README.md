@@ -19,30 +19,24 @@ HOW TO INSTALL:
 
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
 2. git clone https://github.com/myshell-ai/OpenVoice.git
-3. cd OpenVoice
+3. cd dir Frames-Speech-to-Speech
+4. pip install -r requirements.txt
+5. cd OpenVoice
    - pip install -e .
-4. git clone https://github.com/mphilli/English-to-IPA.git
-- cd English-to-IPA
-- python -m pip install .
-- pip install cn2an -U
-5. cd dir Frames-Speech-to-Speech
-6. pip install -r requirements.txt
-- pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
-- pip install --default-timeout=1000 tts==0.13.0
-7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-8. extract checkpoints.zip to Frames-Speech-to-Speech folder
-9. on https://huggingface.co/coqui/XTTS-v2 download model
-10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-11. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
-12. In xtalk.py:
+6. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+7. extract checkpoints.zip to Frames-Speech-to-Speech folder
+8. on https://huggingface.co/coqui/XTTS-v2 download model
+9. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+10. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+11. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-13. start LM studio server (or similar)
+12. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-14. run: python talk3.py (low latency version)
-15. run: python xtalk.py (quality voice version)
+13. run: python talk3.py (low latency version)
+14. run: python xtalk.py (quality voice version)
 
 ROADMAP:
 
