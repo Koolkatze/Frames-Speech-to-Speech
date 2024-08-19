@@ -28,6 +28,7 @@ HOW TO INSTALL:
 - \Openvoice\Scripts\Activate.ps1
 - pip install -r requirements.txt
 - pip install -e .
+- Open a new TAB on TERMINAL while Openvoice is working.
 6. cd Frames-Speech-to-Speech
 7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 8. extract checkpoints.zip to Frames-Speech-to-Speech folder
