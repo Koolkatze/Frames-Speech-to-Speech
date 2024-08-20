@@ -27,7 +27,7 @@ Use Allways Windosws PowerShell Terminall
 5. pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
 6. cd OpenVoice
 - python -m venv /your/OpenVoice/path
-- \OpenVoice\Scripts\Activate.ps1
+- .\OpenVoice\Scripts\Activate.ps1
 - pip install -r requirements.txt
 - pip install -e .
 - Open a new TAB on TERMINAL while Openvoice is working.
