@@ -244,7 +244,7 @@ def user_chatbot_conversation():
         conversation_history.append({"role": "assistant", "content": chatbot_response})
         prompt2 = chatbot_response
         style = "default"
-        audio_file_pth2 = "PATH/joa.mp3"
+        audio_file_pth2 = "PATH/TO/YOUR/OWN/joa.mp3"
         process_and_play(prompt2, style, audio_file_pth2)
         if len(conversation_history) > 20:
             conversation_history = conversation_history[-20:]
