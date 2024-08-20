@@ -21,31 +21,28 @@ Use Allways Windosws PowerShell Terminall
 
 0. pip install ffmpeg
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
-2. git clone https://github.com/myshell-ai/OpenVoice.git
 3. cd dir Frames-Speech-to-Speech
 4. pip install -r requirements.txt
 5. pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
-6. cd OpenVoice
-- python -m venv /your/OpenVoice/path
-- .\OpenVoice\Scripts\Activate.ps1
-- pip install -r requirements.txt
-- pip install -e .
-- Open a new TAB on TERMINAL while Openvoice is working.
-6. cd Frames-Speech-to-Speech
-7. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-8. extract checkpoints.zip to Frames-Speech-to-Speech folder
-9. on https://huggingface.co/coqui/XTTS-v2 download model
-10. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-11. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
-12. In xtalk.py:
+6. pip install -U torch torchvision torchaudio git+https://github.com/violetdenim/wavmark.git
+7. cd Frames-Speech-to-Speech
+8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+9. extract checkpoints.zip to Frames-Speech-to-Speech folder
+10. on https://huggingface.co/coqui/XTTS-v2 download model
+11. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+12. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+13. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
-13. start LM studio server (or similar)
+14. start LM studio server (or similar)
 - Edit chatbot2.txt to create a Chat's Character personality.
 - Edit vault.txt to create Chats Knowledge about yourself (or user).
-14. run: python talk3.py (low latency version)
-14. run: python xtalk.py (quality voice version)
+15. run: python talk3.py (low latency version)
+16. run: python xtalk.py (quality voice version)
+
+To clone a voice using OpenVoice just use cd Frames-Speech-to-Speech and then python openvoice_app.py
+after that use the https:// Link provided by the app on your internet Browser and follow the instructions.
 
 ROADMAP:
 
