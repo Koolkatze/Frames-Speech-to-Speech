@@ -17,6 +17,8 @@ REQUIREMENTS:
 
 HOW TO INSTALL:
 
+Use Allways Windosws PowerShell Terminall
+
 0. pip install ffmpeg
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
 2. git clone https://github.com/myshell-ai/OpenVoice.git
