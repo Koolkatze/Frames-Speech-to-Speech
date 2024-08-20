@@ -66,11 +66,11 @@ os.makedirs(output_dir, exist_ok=True)
 
 # Load XTTS configuration
 xtts_config = XttsConfig()
-xtts_config.load_json("C:/codes/speech-to-rag/XTTS-v2/config.json")
+xtts_config.load_json("C:/Users/kris_/Python/fsts2/XTTS-v2/config.json")
 
 # Initialize XTTS model
 xtts_model = Xtts.init_from_config(xtts_config)
-xtts_model.load_checkpoint(xtts_config, checkpoint_dir="C:/codes/speech-to-rag/XTTS-v2", eval=True)
+xtts_model.load_checkpoint(xtts_config, checkpoint_dir="C:/Users/kris_/Python/fsts2/XTTS-v2/", eval=True)
 xtts_model.cuda()  # Move the model to GPU if available
 
 # Function to synthesize speech using XTTS
@@ -248,7 +248,7 @@ def user_chatbot_conversation():
         chatbot_response = chatgpt_streamed(user_input, system_message, conversation_history, "Chatbot", vault_embeddings_tensor, vault_content, model)
         conversation_history.append({"role": "assistant", "content": chatbot_response})
         prompt2 = chatbot_response
-        audio_file_pth2 = "C:/codes/Frames-Speech-to-Speech/XTTS-v2/samples/en_sample.wav"
+        audio_file_pth2 = "C:/Users/kris_/Python/fsts2/XTTS-v2/samples/emma2.wav"
         process_and_play(prompt2, audio_file_pth2)
         if len(conversation_history) > 20:
             conversation_history = conversation_history[-20:]
