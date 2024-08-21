@@ -42,7 +42,14 @@ Use Allways Windosws PowerShell Terminall
 15. run: python talk3.py (low latency version)
 16. run: python xtalk.py (quality voice version)
 
-To clone a voice using OpenVoice just use cd Frames-Speech-to-Speech and then python openvoice_app.py
+To clone a voice using OpenVoice just use:
+
+cd Frames-Speech-to-Speech 
+
+and then:
+
+python openvoice_app.py
+
 after that use the https:// Link provided by the app on your internet Browser and follow the instructions.
 
 ROADMAP:
