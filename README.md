@@ -24,14 +24,15 @@ Use Allways Windosws PowerShell Terminall
 3. cd dir Frames-Speech-to-Speech
 4. pip install -r requirements.txt
 5. pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/test/cu118
-6. pip install -U torch torchvision torchaudio git+https://github.com/violetdenim/wavmark.git
-7. cd Frames-Speech-to-Speech
-8. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
-9. extract checkpoints.zip to Frames-Speech-to-Speech folder
-10. on https://huggingface.co/coqui/XTTS-v2 download model
-11. place XTTS-v2 folder in Frames-Speech-to-Speech folder
-12. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
-13. In xtalk.py:
+6. pip install numpy==1.22.0
+7. Coffe Break...
+8. cd Frames-Speech-to-Speech
+9. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
+10. extract checkpoints.zip to Frames-Speech-to-Speech folder
+11. on https://huggingface.co/coqui/XTTS-v2 download model
+12. place XTTS-v2 folder in Frames-Speech-to-Speech folder
+13. In talk3.py set your reference voice PATH (use a .mp3 extension file) on line 247
+14. In xtalk.py:
 - set PATH to config.json line 69
 - set PATH to XTTS-v2 folder line 73
 - set PATH to reference voice (use a .wav extension file) line 251
