@@ -21,12 +21,12 @@ Use Allways Windosws PowerShell Terminall
 
 0. pip install ffmpeg
 1. git clone https://github.com/Koolkatze/Frames-Speech-to-Speech.git
-3. cd dir Frames-Speech-to-Speech
+3. cd Frames-Speech-to-Speech
 4. pip install -r requirements.txt
 5. Take a Nap...
 6. Take a Shower...
 7. Coffe Break...
-8. cd Frames-Speech-to-Speech
+8. Continue...
 9. download https://nordnet.blob.core.windows.net/bilde/checkpoints.zip
 10. extract checkpoints.zip to Frames-Speech-to-Speech folder
 11. on https://huggingface.co/coqui/XTTS-v2 download model
